@@ -1,12 +1,10 @@
 import time
-from crawler import Crawler
+from crawling.crawler import Crawler
 
 
 def main():
     url = "https://crawler-test.com/"
-    # url = "https://stackoverflow.com"
-    # url = "http://google.com/"
-    num_processes = 8
+    num_processes = 3
     num_threads = 8
     crawler = Crawler(url, num_processes, num_threads, "crawler-test.xml")
     crawler.run()

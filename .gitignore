@@ -165,6 +165,5 @@ cython_debug/
 *.log
 result
 rubbish
-*.html
+data.html
 test.py
-sitemaps
